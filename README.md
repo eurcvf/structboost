@@ -5,7 +5,6 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML5 e CSS3
-- JavaScript
 - Git e Github
 - Figma
 
