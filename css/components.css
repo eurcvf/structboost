@@ -6,7 +6,7 @@
   font-weight: 600;
   line-height: 100%;
   letter-spacing: -0.48px;
-  transition: all .3s ease;
+  transition: all .3s;
 }
 
 .btn-primary.lg {
