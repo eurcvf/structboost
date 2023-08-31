@@ -1,0 +1,135 @@
+.btn-primary {
+  padding: 1.6rem 2.4rem;
+  background-color: var(--pink-10);
+  color: var(--gray-900);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+  transition: all .3s ease;
+}
+
+.btn-primary.lg {
+  padding: 2.3rem 2.4rem;
+  font-size: 1.8rem;
+}
+
+.btn-primary.white {
+  background-color: var(--gray-100);
+}
+
+.btn-primary.white:hover {
+  background-color: var(--gray-900);
+  color: var(--gray-100);
+}
+
+.btn-primary:hover {
+  background-color: var(--pink-20);
+}
+
+.item-digital {
+  width: 100%;
+  max-width: 38.4rem;
+}
+
+.item-digital .icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.item-digital .info h6 {
+  margin-bottom: 0.8rem;
+}
+
+.item-digital .info p {
+  color: var(--gray-600);
+}
+
+.card-post {
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 2.4rem;
+}
+
+.card-post .tag {
+  display: inline-block;
+  border-radius: 10rem;
+  background: rgba(255, 255, 255, 0.10);
+  padding: 0.8rem 2.2rem;
+  text-transform: uppercase;
+  color: var(--gray-100);
+  font-family: 'Sora';
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.126rem;
+  margin-bottom: 4.5rem;
+}
+
+.card-post .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6.4rem;
+}
+
+.card-post .text {
+  width: 100%;
+  max-width: 50.8rem;
+}
+
+.card-post .text h6 {
+  margin-bottom: 0.8rem;
+}
+
+.card-post .text p {
+  font-size: 1.6rem;
+  color: var(--gray-600);
+}
+
+@media (max-width: 991px) {
+  .item-digital {
+    text-align: center;
+  }
+
+  .item-digital .icon {
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+  }
+
+  .item-digital .info p br {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .item-digital .info p {
+    font-size: 1.8rem;
+    max-width: 31.9rem;
+  }
+
+  .card-post {
+    padding: 1.6rem;
+  }
+
+  .card-post .image {
+    margin-bottom: 5.4rem;
+  }
+
+  .card-post .text h6 {
+    font-size: 1.8rem;
+  }
+
+  .card-post .text p {
+    font-size: 1.4rem;
+  }
+
+  .s-art-front .all {
+    gap: 3.2rem;
+  }
+}
